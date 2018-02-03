@@ -1,5 +1,7 @@
 # socket-example
 
+This example demonstrates how to create and connect to a socket.
+
 ## Run Instructions
 
 Follow these steps to run the example on EIB.
@@ -25,7 +27,7 @@ Follow these steps to run the example on EIB.
     ```
     $> dtedgectl onboard -T application -f socket.yaml
     ```
-* cd to client: `cd ../client```
+* cd to client: `cd ../client`
 * Copy Python client SDK files (`ensclient.py`, `mecsdk.conf`)
 * Edit mecsdk.conf, check correct DiscoveryURL value for local setup
 * Run Client
