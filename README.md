@@ -14,7 +14,7 @@ Follow these steps to run the example on EIB.
 ## Setup
 
 * Download or Clone Repo
-* `cd` into app
+* Change directory to app: `cd app`
 * Compile socket
     ```
     $> gcc socket.c -o socket
@@ -27,7 +27,7 @@ Follow these steps to run the example on EIB.
     ```
     $> dtedgectl onboard -T application -f socket.yaml
     ```
-* cd to client: `cd ../client`
+* Change directory to client: `cd ../client`
 * Copy Python client SDK files (`ensclient.py`, `mecsdk.conf`)
 * Edit mecsdk.conf, check correct DiscoveryURL value for local setup
 * Run Client
